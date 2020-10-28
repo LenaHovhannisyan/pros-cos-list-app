@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #282c34;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #f0f8ff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+ol {
+    line-height: 2.5rem;
+    width: 400px;
+    font-size: 1.4rem;
+}
+
+input {
+    border: none;
+    background: transparent;
+    color: #f0f8ff;
+    font-size: 1.4rem;
+    outline: none;
+    width: 100%;
+}
+
+.MuiGrid-item {
+    border: 1px solid;
+}
